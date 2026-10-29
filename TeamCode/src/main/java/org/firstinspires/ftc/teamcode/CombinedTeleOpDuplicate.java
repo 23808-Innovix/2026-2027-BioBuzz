@@ -28,7 +28,8 @@ public class CombinedTeleOp extends OpMode {
     private TelemetryManager telemetryM;
     private boolean slowMode = false;
     private double slowModeMultiplier = 0.5;
-    private DcMotorEx intakeMotor;
+    private DcMotorEx intakeMotor1;
+    private DcMotorEx intakeMotor2;
     private DcMotorEx shooterMotor1;
     private DcMotorEx feederMotor;
     private ShooterSubsystem shooterSubsystem;
@@ -55,11 +56,12 @@ public class CombinedTeleOp extends OpMode {
                 .addPath(new Path(new BezierLine(follower::getPose, new Pose(72, 72))))
                 .setHeadingInterpolation(HeadingInterpolator.linearFromPoint(follower::getHeading, Math.toRadians(45), 0.8))
                 .build();
-        intakeMotor = hardwareMap.get(DcMotorEx.class, "intake");
+        intakeMotor1 = hardwareMap.get(DcMotorEx.class, "intake1");
+        intakeMotor2 = hardwareMap.get(DcMotorEx.class, "intake2");
         feederMotor = hardwareMap.get(DcMotorEx.class, "feeder");
         shooterMotor1 = hardwareMap.get(DcMotorEx.class, "shooter1");
-        DcMotorEx shooterMotor2 = hardwareMap.get(DcMotorEx.class, "shooter2");
-        shooterSubsystem = new ShooterSubsystem(shooterMotor1, shooterMotor2);
+        //DcMotorEx shooterMotor2 = hardwareMap.get(DcMotorEx.class, "shooter2");
+        shooterSubsystem = new ShooterSubsystem(shooterMotor1);
 
         timer = new ElapsedTime();
     }
@@ -139,17 +141,20 @@ public class CombinedTeleOp extends OpMode {
 
         //Intake/unintake
         if (gamepad2.left_bumper) {
-            intakeMotor.setPower(intakeMotorPower);
+            intakeMotor1.setPower(intakeMotorPower);
+            intakeMotor2.setPower(intakeMotorPower);
         } else if(gamepad2.right_bumper){
-            intakeMotor.setPower(0.4);
+            intakeMotor1.setPower(0.4);
+            intakeMotor2.setPower(0.4);
         }
         else {
-            intakeMotor.setPower(0);
+            intakeMotor1.setPower(0);
+            intakeMotor2.setPower(0);
         }
 
         //Feeder
         if (gamepad2.left_trigger>0){
-            feederMotor.setPower(0.3);
+            feederMotor.setPower(0.5);
         }
         else {
             feederMotor.setPower(0);
