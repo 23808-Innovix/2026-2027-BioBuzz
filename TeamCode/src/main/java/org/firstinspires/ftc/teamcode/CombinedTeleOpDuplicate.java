@@ -20,7 +20,7 @@ import java.util.function.Supplier;
 
 
 @TeleOp
-public class CombinedTeleOp extends OpMode {
+public class CombinedTeleOp extends OpMode { //Basically the variable names in Java in the actual code
     private Follower follower;
     public static Pose startingPose;
     private boolean automatedDrive;
@@ -47,7 +47,7 @@ public class CombinedTeleOp extends OpMode {
 
 
     @Override
-    public void init() {
+    public void init() { //connects the java variable name to the configured motor names (on driver station)
         follower = Constants.createFollower(hardwareMap);
         follower.setStartingPose(startingPose == null ? new Pose(72, 72, 0) : startingPose);
         follower.update();
@@ -56,10 +56,10 @@ public class CombinedTeleOp extends OpMode {
                 .addPath(new Path(new BezierLine(follower::getPose, new Pose(72, 72))))
                 .setHeadingInterpolation(HeadingInterpolator.linearFromPoint(follower::getHeading, Math.toRadians(45), 0.8))
                 .build();
-        intakeMotor1 = hardwareMap.get(DcMotorEx.class, "intake1");
-        intakeMotor2 = hardwareMap.get(DcMotorEx.class, "intake2");
-        feederMotor = hardwareMap.get(DcMotorEx.class, "feeder");
-        shooterMotor1 = hardwareMap.get(DcMotorEx.class, "shooter1");
+        intakeMotor1 = hardwareMap.get(DcMotorEx.class, "intakeMotorLeft"); //where the motors should be the same as the
+        intakeMotor2 = hardwareMap.get(DcMotorEx.class, "intakeMotorRight");
+        feederMotor = hardwareMap.get(DcMotorEx.class, "transMotor");
+        shooterMotor1 = hardwareMap.get(DcMotorEx.class, "shooterMotor");
         //DcMotorEx shooterMotor2 = hardwareMap.get(DcMotorEx.class, "shooter2");
         shooterSubsystem = new ShooterSubsystem(shooterMotor1);
 
