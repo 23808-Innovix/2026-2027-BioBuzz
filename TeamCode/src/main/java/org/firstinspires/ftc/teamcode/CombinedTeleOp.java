@@ -62,6 +62,7 @@ public class CombinedTeleOp extends OpMode {
         follower.update();
         telemetryM.update();
 
+        //Rest pose
         if (gamepad1.leftBumperWasPressed()) {
             follower.setPose(new Pose(follower.getPose().getX(), follower.getPose().getY(), 0));
         }
@@ -72,32 +73,40 @@ public class CombinedTeleOp extends OpMode {
         if (gamepad1.rightBumperWasPressed()) {
             slowMode = !slowMode;
         }
-
-        // Press gamepad 1 Start to arm or disarm drivetrain control.
-        if (gamepad1.startWasPressed()) {
-            driveArmed = !driveArmed;
-            follower.startTeleopDrive();
-        }
-
-        if (driveArmed) {
-            double driveScale = slowMode ? slowModeMultiplier : 1.0;
-            double forward = gamepad1.dpad_up ? 1.0
-                    : gamepad1.dpad_down ? -1.0
-                      : -DriveInput.applyDeadzone(gamepad1.left_stick_x);
-            double strafe = gamepad1.dpad_right ? 1.0
-                    : gamepad1.dpad_left ? -1.0
-                      : -DriveInput.applyDeadzone(gamepad1.left_stick_y);
-            double turn = Math.max(-1.0, Math.min(1.0,
-                    -DriveInput.applyDeadzone(gamepad1.right_stick_x) * TURN_SENSITIVITY));
-            follower.setTeleOpDrive(
-                    forward * driveScale,
-                    strafe * driveScale,
-                    turn * driveScale,
-                    true
+        //Normal Teleop driving
+        if (!automatedDrive) {
+            if (!slowMode) follower.setTeleOpDrive(
+                    -gamepad1.left_stick_y,
+                    -gamepad1.left_stick_x,
+                    -gamepad1.right_stick_x,
+                    false // Robot Centric
             );
-        } else {
-            follower.setTeleOpDrive(0.0, 0.0, 0.0, true);
         }
+//        // Press gamepad 1 Start to arm or disarm drivetrain control.
+//        if (gamepad1.startWasPressed()) {
+//            driveArmed = !driveArmed;
+//            follower.startTeleopDrive();
+//        }
+//
+//        if (driveArmed) {
+//            double driveScale = slowMode ? slowModeMultiplier : 1.0;
+//            double forward = gamepad1.dpad_up ? 1.0
+//                    : gamepad1.dpad_down ? -1.0
+//                      : -DriveInput.applyDeadzone(gamepad1.left_stick_x);
+//            double strafe = gamepad1.dpad_right ? 1.0
+//                    : gamepad1.dpad_left ? -1.0
+//                      : -DriveInput.applyDeadzone(gamepad1.left_stick_y);
+//            double turn = Math.max(-1.0, Math.min(1.0,
+//                    -DriveInput.applyDeadzone(gamepad1.right_stick_x) * TURN_SENSITIVITY));
+//            follower.setTeleOpDrive(
+//                    forward * driveScale,
+//                    strafe * driveScale,
+//                    turn * driveScale,
+//                    true
+//            );
+//        } else {
+//            follower.setTeleOpDrive(0.0, 0.0, 0.0, true);
+//        }
 
         // Gamepad 2: left bumper intakes, right bumper reverses both intake motors.
         double intakePower = gamepad2.left_bumper ? 0.70 : (gamepad2.right_bumper ? -0.4 : 0.0);
