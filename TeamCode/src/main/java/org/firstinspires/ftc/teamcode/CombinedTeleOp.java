@@ -78,7 +78,7 @@ public class CombinedTeleOp extends OpMode {
             if (!slowMode) follower.setTeleOpDrive(
                     -gamepad1.left_stick_y,
                     -gamepad1.left_stick_x,
-                    -gamepad1.right_stick_x,
+                    gamepad1.right_stick_x, //change turning (its opposite); turn faster
                     false // Robot Centric
             );
         }
@@ -121,7 +121,7 @@ public class CombinedTeleOp extends OpMode {
             shooterSubsystem.stop();
         }
 
-        double shooterVelocity = Math.abs(shooterSubsystem.getVelocityTicksPerSecond());
+        double shooterVelocity = Math.abs(shooterSubsystem.getVelocityTicksPerSecond()); //change shooter speed - too fast
         if (!shooterRequested) {
             transferFeeding = false;
         } else if (!transferFeeding && shooterVelocity >= SHOOTER_TARGET_TICKS_PER_SECOND * 0.96) {
