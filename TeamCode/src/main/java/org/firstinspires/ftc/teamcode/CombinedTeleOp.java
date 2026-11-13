@@ -32,6 +32,9 @@ public class CombinedTeleOp extends OpMode {
     private ShooterSubsystem shooterSubsystem;
     private static final double SHOOTER_TARGET_TICKS_PER_SECOND = 1250.0;
     private boolean transferFeeding;
+    // ADDED: automatedDrive was never declared, so the drive block below did not compile.
+    // false keeps manual stick driving on, which is how this TeleOp runs.
+    private final boolean automatedDrive = false;
 
     @Override
     public void init() {

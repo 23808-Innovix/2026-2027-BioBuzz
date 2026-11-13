@@ -1,5 +1,9 @@
 package org.firstinspires.ftc.teamcode;
 
+// ADDED: whole file commented out for now (camera code is not needed yet). It does not compile
+// against FTC Vision 11.0.0: the public class name must match the file name, and
+// ColorBlobProcessor is now ColorBlobLocatorProcessor. Original code is kept below.
+/*
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import org.firstinspires.ftc.robotcore.external.hardware.camera.WebcamName;
@@ -78,3 +82,4 @@ public class BioBuzzVisionBase extends LinearOpMode {
         visionPortal.close();
     }
 }
+*/

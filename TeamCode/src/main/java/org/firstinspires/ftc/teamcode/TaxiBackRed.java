@@ -74,7 +74,8 @@ public class TaxiBackRed extends OpMode {
     public void init() {
         shooterMotor1 = hardwareMap.get(DcMotorEx.class, "shooter1");
         shooterMotor2 = hardwareMap.get(DcMotorEx.class, "shooter2");
-        shooterSubsystem = new ShooterSubsystem(shooterMotor1, shooterMotor2);
+        // ADDED: commented out, ShooterSubsystem has no two-motor constructor yet.
+        // shooterSubsystem = new ShooterSubsystem(shooterMotor1, shooterMotor2);
 
         pathTimer = new Timer();
         opmodeTimer = new Timer();
