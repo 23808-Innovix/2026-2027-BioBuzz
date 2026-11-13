@@ -4,16 +4,54 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41344cc-d980-49bf-bb21-caef82c0954a" name="Changes" comment="add comments and testing turn + gradle files">
+    <list default="true" id="c41344cc-d980-49bf-bb21-caef82c0954a" name="Changes" comment="gradle again">
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/drawable-xhdpi-v4_icon_menu.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/drawable-xhdpi-v4_icon_robotcontroller.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/layout_activity_ftc_controller.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/menu_ftc_robot_controller.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/raw_gold.wav.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/raw_silver.wav.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/xml_app_settings.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/xml_device_filter.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compile_and_runtime_r_class_jar/debug/processDebugResources/R.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_55b499a0c40aee94943ae3ea5ac944fbcc559052e10ebab6ad10ea5ada0ae55d_bucket_0/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_55b499a0c40aee94943ae3ea5ac944fbcc559052e10ebab6ad10ea5ada0ae55d_bucket_1/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_55b499a0c40aee94943ae3ea5ac944fbcc559052e10ebab6ad10ea5ada0ae55d_bucket_2/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_55b499a0c40aee94943ae3ea5ac944fbcc559052e10ebab6ad10ea5ada0ae55d_bucket_3/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_55b499a0c40aee94943ae3ea5ac944fbcc559052e10ebab6ad10ea5ada0ae55d_bucket_4/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/externalLibs/dirs_bucket_0/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/externalLibs/dirs_bucket_1/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/externalLibs/dirs_bucket_2/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/externalLibs/dirs_bucket_3/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/externalLibs/dirs_bucket_4/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/mixedScopes/dirs_bucket_0/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/mixedScopes/dirs_bucket_1/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/mixedScopes/dirs_bucket_2/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/mixedScopes/dirs_bucket_3/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/mixedScopes/dirs_bucket_4/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/otherProjects/dirs_bucket_0/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/otherProjects/dirs_bucket_1/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/otherProjects/dirs_bucket_2/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/otherProjects/dirs_bucket_3/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/otherProjects/dirs_bucket_4/graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/practiceintake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/e59ab5d7efd7e902b81cd80e4b71454267b94df18a256f64d19344952339d805_0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/e59ab5d7efd7e902b81cd80e4b71454267b94df18a256f64d19344952339d805_1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/e59ab5d7efd7e902b81cd80e4b71454267b94df18a256f64d19344952339d805_2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/e59ab5d7efd7e902b81cd80e4b71454267b94df18a256f64d19344952339d805_3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/e59ab5d7efd7e902b81cd80e4b71454267b94df18a256f64d19344952339d805_4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/practiceintake.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.6.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.0/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.6.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.0/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.6.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.0/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.6.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.0/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.6.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.0/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.6.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.6.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.0/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.6.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.6.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/innovix.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/innovix.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/.transforms/3ea2b51309b67fcdcd4df4a8ae098d14/transformed/bundleLibRuntimeToDirDebug/com/qualcomm/ftcrobotcontroller/BuildConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/3ea2b51309b67fcdcd4df4a8ae098d14/transformed/bundleLibRuntimeToDirDebug/com/qualcomm/ftcrobotcontroller/BuildConfig.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/.transforms/3ea2b51309b67fcdcd4df4a8ae098d14/transformed/bundleLibRuntimeToDirDebug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/3ea2b51309b67fcdcd4df4a8ae098d14/transformed/bundleLibRuntimeToDirDebug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.dex" afterDir="false" />
@@ -26,8 +64,86 @@
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/BuildConfig.class.uniqueId10" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/BuildConfig.class.uniqueId10" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/FtcRobotControllerActivity.class.uniqueId1" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/FtcRobotControllerActivity.class.uniqueId1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcRobotController/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/apk_ide_redirect_file/debug/createDebugApkListingFileRedirect/redirect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/apk_ide_redirect_file/debug/createDebugApkListingFileRedirect/redirect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/dirs_bucket_5/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_37090487c0c35b0f9c68771fd93f93f5e0e89677ac70c9964e6e5c8b7958eb16_bucket_0/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_37090487c0c35b0f9c68771fd93f93f5e0e89677ac70c9964e6e5c8b7958eb16_bucket_1/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_37090487c0c35b0f9c68771fd93f93f5e0e89677ac70c9964e6e5c8b7958eb16_bucket_2/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_37090487c0c35b0f9c68771fd93f93f5e0e89677ac70c9964e6e5c8b7958eb16_bucket_3/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_37090487c0c35b0f9c68771fd93f93f5e0e89677ac70c9964e6e5c8b7958eb16_bucket_4/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/desugar_graph/debug/dexBuilderDebug/out/currentProject/jar_37090487c0c35b0f9c68771fd93f93f5e0e89677ac70c9964e6e5c8b7958eb16_bucket_5/graph.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeLibDexDebug/11/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeLibDexDebug/11/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex_archive_input_jar_hashes/debug/dexBuilderDebug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/dex_number_of_buckets_file/debug/dexBuilderDebug/out" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex_number_of_buckets_file/debug/dexBuilderDebug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/CombinedTeleOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/CombinedTeleOp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/Score6Blue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/Score6Red.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/Score9Red.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/ScorePreloadsBlue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/ScorePreloadsRed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/ShooterSubsystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/ShooterSubsystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/TaxiBackBlue.class" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/TaxiBackBlue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/TaxiBackRed.class" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/TaxiBackRed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/TaxiRed.class" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/TaxiRed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/pedroPathing/ForwardVelocityTuner.class" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/pedroPathing/ForwardVelocityTuner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/pedroPathing/ForwardZeroPowerAccelerationTuner.class" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/pedroPathing/ForwardZeroPowerAccelerationTuner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/pedroPathing/LateralVelocityTuner.class" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/pedroPathing/LateralVelocityTuner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/pedroPathing/LateralZeroPowerAccelerationTuner.class" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/pedroPathing/LateralZeroPowerAccelerationTuner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/pedroPathing/Tuning.class" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/firstinspires/ftc/teamcode/pedroPathing/Tuning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/4dd50ddea3a59edec4f95b9056332b097fb17ca7034bd292bfc85a0ef1a84a38_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/4dd50ddea3a59edec4f95b9056332b097fb17ca7034bd292bfc85a0ef1a84a38_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/4dd50ddea3a59edec4f95b9056332b097fb17ca7034bd292bfc85a0ef1a84a38_2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/4dd50ddea3a59edec4f95b9056332b097fb17ca7034bd292bfc85a0ef1a84a38_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/4dd50ddea3a59edec4f95b9056332b097fb17ca7034bd292bfc85a0ef1a84a38_4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/4dd50ddea3a59edec4f95b9056332b097fb17ca7034bd292bfc85a0ef1a84a38_5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/CombinedTeleOp.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/CombinedTeleOp.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/FieldCentricTeleOp.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/FieldCentricTeleOp.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/IntakeTest.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/IntakeTest.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/PIDTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/PIDTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/Score6Blue.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/Score6Red.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/Score9Red.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/ScorePreloadsBlue.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/ScorePreloadsRed.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/ShooterSubsystem.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/ShooterSubsystem.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/ShooterTest.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/ShooterTest.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/SpindexerSubsystem.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/SpindexerSubsystem.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/TaxiBackBlue.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/TaxiBackBlue.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/TaxiBackRed.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/TaxiBackRed.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/TaxiBlue.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/TaxiBlue.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/TaxiRed.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/TaxiRed.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/TestOpMode.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/TestOpMode.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/CentripetalTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/CentripetalTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/Circle.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/Circle.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/Constants.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/Constants.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/Drawing.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/Drawing.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/DriveTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/DriveTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/ForwardTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/ForwardTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/ForwardVelocityTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/ForwardVelocityTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/ForwardZeroPowerAccelerationTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/ForwardZeroPowerAccelerationTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/HeadingTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/HeadingTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/LateralTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/LateralTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/LateralVelocityTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/LateralVelocityTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/LateralZeroPowerAccelerationTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/LateralZeroPowerAccelerationTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/Line.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/Line.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/LocalizationTest.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/LocalizationTest.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/TranslationalTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/TranslationalTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/Triangle.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/Triangle.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/Tuning.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/Tuning.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/TurnTuner.dex" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/org/firstinspires/ftc/teamcode/pedroPathing/TurnTuner.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/outputs/apk/debug/TeamCode-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/outputs/apk/debug/TeamCode-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/CombinedTeleOp.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +168,12 @@
     &quot;assignee&quot;: &quot;mandy-yuan&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/23808-Innovix/2026-2027-BioBuzz.git",
-    "accountId": "bff7ef90-b7d6-416a-a6f8-22e4d75b710f"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/23808-Innovix/2026-2027-BioBuzz.git&quot;,
+    &quot;accountId&quot;: &quot;bff7ef90-b7d6-416a-a6f8-22e4d75b710f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -67,21 +183,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.TeamCode.executor": "Run",
-    "Android App.innovix.executor": "Run",
-    "CidrDebugProfileConversion": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.TeamCode.executor&quot;: &quot;Run&quot;,
+    &quot;Android App.innovix.executor&quot;: &quot;Run&quot;,
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode" />
@@ -195,7 +311,9 @@
     <MESSAGE value="Add 2025-2026 Code" />
     <MESSAGE value="Add 11/1 competition code" />
     <MESSAGE value="add comments and testing turn + gradle files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comments and testing turn + gradle files" />
+    <MESSAGE value="gradle files" />
+    <MESSAGE value="gradle again" />
+    <option name="LAST_COMMIT_MESSAGE" value="gradle again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
