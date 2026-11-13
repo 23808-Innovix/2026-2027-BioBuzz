@@ -81,7 +81,7 @@ public class CombinedTeleOp extends OpMode {
             if (!slowMode) follower.setTeleOpDrive(
                     -gamepad1.left_stick_y,
                     -gamepad1.left_stick_x,
-                    gamepad1.right_stick_x, //change turning (its opposite); turn faster
+                    -gamepad1.right_stick_x, //change turning (its opposite); turn faster
                     false // Robot Centric
             );
         }
