@@ -18,7 +18,7 @@ public class CombinedTeleOp extends OpMode {
     public static Pose startingPose;
     private boolean driveArmed;
     private TelemetryManager telemetryM;
-    private boolean slowMode;
+    private boolean slowMode = false;
     private final double slowModeMultiplier = 0.5;
     private static final double TURN_SENSITIVITY = 1.5;
 
@@ -73,18 +73,31 @@ public class CombinedTeleOp extends OpMode {
             follower.setPose(new Pose(follower.getPose().getX(), follower.getPose().getY(), Math.PI));
         }
 
+        //slow mode
         if (gamepad1.rightBumperWasPressed()) {
-            slowMode = !slowMode;
+            slowMode = true;
         }
+        else if (gamepad1.right_trigger>0){
+            slowMode = false;
+        }
+
         //Normal Teleop driving
         if (!automatedDrive) {
             if (!slowMode) follower.setTeleOpDrive(
                     -gamepad1.left_stick_y,
                     -gamepad1.left_stick_x,
-                    -gamepad1.right_stick_x, //change turning (its opposite); turn faster
+                    -gamepad1.right_stick_x,
+                    false // Robot Centric
+            );
+            //SlowMode on
+            else follower.setTeleOpDrive(
+                    -gamepad1.left_stick_y * slowModeMultiplier,
+                    -gamepad1.left_stick_x * slowModeMultiplier,
+                    -gamepad1.right_stick_x * slowModeMultiplier,
                     false // Robot Centric
             );
         }
+
 //        // Press gamepad 1 Start to arm or disarm drivetrain control.
 //        if (gamepad1.startWasPressed()) {
 //            driveArmed = !driveArmed;

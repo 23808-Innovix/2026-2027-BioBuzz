@@ -11,7 +11,7 @@ public class ShooterSubsystem {
 
     private final DcMotorEx shooterMotor;
 
-    public ShooterSubsystem(DcMotorEx shooterMotor, DcMotorEx shooterMotor2) {
+    public ShooterSubsystem(DcMotorEx shooterMotor) {
         this.shooterMotor = shooterMotor;
         this.shooterMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         this.shooterMotor.setDirection(DcMotorSimple.Direction.REVERSE);
